@@ -1,7 +1,12 @@
 # Wallpaper-Changer
 Wallpaper Changer for Windows using the r/Wallpaper subreddit
 
-PYTHON 3 AND FOLLOWING MODULES ARE REQUIRED TO RUN THIS PROGRAMM
+PYTHON 3 AND FOLLOWING MODULES ARE REQUIRED TO RUN THIS PROGRAMM:
+  * cx_Freeze
+  * praw
+  * progressbar
+  * imgur_downloader
+  * wxPython
 
 The compiled version that doesnt require python is to be found in the main branch
 
