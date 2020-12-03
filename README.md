@@ -16,6 +16,7 @@ If possible create a reddit app at https://ssl.reddit.com/prefs/apps/ on your re
 
 
 To do so:
+<pre>
 1. Click on "Create App" and fill in the blanks.
 2. Select the "script" radio button.
     The "about url" is just information.
@@ -26,3 +27,4 @@ Put the client id in the first line of a file titled ".client" in the same direc
 You should find the client secret as "secret".
 Put the client secret in the second line of the ".client" file.
 You're good to go!
+<\pre>
