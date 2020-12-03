@@ -1,5 +1,5 @@
 # Wallpaper Changer Build Code
-<pre>
+
 REQUIREMENTS:
 
 Python 3
@@ -10,7 +10,7 @@ Following modules:
   * progressbar
   * imgur_downloader
   * wxPython
-
+\n\n
 
 To build execute "build.py"
-</pre>
+
