@@ -2,10 +2,10 @@
 Wallpaper Changer for Windows using the r/Wallpaper subreddit
 
 PYTHON 3 AND FOLLOWING MODULES ARE REQUIRED TO RUN THIS PROGRAMM:
-  * praw
-  * progressbar
-  * imgur_downloader
-  * wxPython
+  * praw (pip install praw)
+  * progressbar (pip install progressbar)
+  * imgur_downloader (pip install imgur-downloader)
+  * wxPython (pip install wxPython)
 
 Configuration Script: Changer.py<br/>
 Main Loop: wrappr.py
