@@ -23,7 +23,7 @@ To do so:
     The "redirect uri" isn't important and can be something like http://localhost.
 Under the name of the app it should say "personal use script".
 Underneath you should find your client id.
-Put the client id in the first line of a file titled ".client" in the same directory as "Changer.exe".
+Put the client id in the first line of a file titled ".client" in the same directory as "Changer.py".
 You should find the client secret as "secret".
 Put the client secret in the second line of the ".client" file.
 You're good to go!
