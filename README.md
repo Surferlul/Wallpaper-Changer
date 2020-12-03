@@ -14,6 +14,6 @@ Following modules:
 Managing script (UI): Changer.py <br/>
 Main loop: wrapper.py <br/>
 Download, setting wallpaper etc.: backend.py
-
+<br/>
 <br/>
 To build execute "build.py"
