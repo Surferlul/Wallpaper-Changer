@@ -11,10 +11,8 @@ Following modules:
   * imgur_downloader
   * wxPython
 <br/>
-Managing script (UI): Changer.py
-
-Main loop: wrapper.py
-
+Managing script (UI): Changer.py <br/>
+Main loop: wrapper.py <br/>
 Download, setting wallpaper etc.: backend.py
 
 <br/>
