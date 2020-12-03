@@ -7,6 +7,9 @@ PYTHON 3 AND FOLLOWING MODULES ARE REQUIRED TO RUN THIS PROGRAMM:
   * imgur_downloader
   * wxPython
 
+Configuration Script: Changer.py<br/>
+Main Loop: wrappr.py
+
 The compiled version that doesnt require python is to be found in the main branch
 
 If you want to compile it yourself you can download the code from the "code" branch
