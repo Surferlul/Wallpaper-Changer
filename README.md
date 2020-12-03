@@ -11,7 +11,7 @@ This app uses the reddit api for Python.\
 The reddit api has limits.\
 The app already had a configured ".client" file with a throwaway client id and client secret so you don't have to create your own reddit app.\
 If it is used to often it may be slow.\
-If possible create a reddit app at https://ssl.reddit.com/prefs/apps/ on your reddit account and replace the default id and secret in the ".client" file with your own.\
+If possible create a reddit app at https://ssl.reddit.com/prefs/apps/ on your reddit account and replace the default id and secret in the ".client" file with your own.
 
 
 
