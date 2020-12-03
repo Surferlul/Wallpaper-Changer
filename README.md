@@ -3,6 +3,10 @@ Wallpaper Changer for Windows using the r/Wallpaper subreddit
 
 YOU DO NOT NEED PYTHON TO RUN THIS PROGRAMM
 
+If you own python you can download the non-compiled version from the "python" branch
+
+If you want to compile it yourself you can download the codefrom the "code" branch
+
 This app uses the reddit api for Python.
 The reddit api has limits.
 The app already had a configured ".client" file with a throwaway client id and client secret so you don't have to create your own reddit app.
