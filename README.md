@@ -5,7 +5,7 @@ PYTHON 3 AND FOLLOWING MODULES ARE REQUIRED TO RUN THIS PROGRAMM:
   * praw (pip install praw)
   * progressbar (pip install progressbar)
   * imgur_downloader (pip install imgur-downloader)
-  * wxPython (pip install wxPython)
+  * wx (pip install wxPython)
 
 Configuration Script: Changer.py<br/>
 Main Loop: wrappr.py
