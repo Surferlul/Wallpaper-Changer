@@ -27,4 +27,4 @@ Put the client id in the first line of a file titled ".client" in the same direc
 You should find the client secret as "secret".
 Put the client secret in the second line of the ".client" file.
 You're good to go!
-<\pre>
+</pre>
