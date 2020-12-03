@@ -154,9 +154,9 @@ class ChangerUI(wx.Frame):
         
         if ids[e.GetId()] == "Start":
             if int(open(CONFIG, "r").read().split()[2]):
-                Popen(["wrapper.exe"], shell=True, creationflags=CREATE_NEW_CONSOLE)
+                Popen(["wrapper.py"], shell=True, creationflags=CREATE_NEW_CONSOLE)
             else:
-                Popen(["wrapper.exe"], shell=True, creationflags=DETACHED_PROCESS)
+                Popen(["wrapper.py"], shell=True, creationflags=DETACHED_PROCESS)
 
         if ids[e.GetId()] == "Refresh":
             integrity_check()
