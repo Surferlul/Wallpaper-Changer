@@ -1,9 +1,10 @@
 import wx
 from glob import glob
-from os import remove, getcwd, mkdir
+from os import remove, getcwd, mkdir, chdir
 from os.path import isfile, getsize, isdir
 from subprocess import Popen, CREATE_NEW_CONSOLE, DETACHED_PROCESS
 
+chdir("\\".join(__file__.split("\\")[0:-1]))
 ids = {}
 CONFIG = ".config"
 HISTORY = ".history"
