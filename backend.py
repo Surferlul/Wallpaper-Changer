@@ -42,15 +42,6 @@ class MyProgressBar():
 
 def del_file(path, Seconds=10):
     Popen("powershell.exe Sleep(" + str(Seconds) + "); Remove-Item .\\Images\\" + path, shell=True, creationflags=CREATE_NEW_CONSOLE)
-    # global intrvl
-    # if int(open(CONFIG, "r").read().split()[2]):
-        # _thread.start_new_thread ( system, tuple(["powershell -WindowStyle Hidden \"Sleep(" + str(Seconds) + "); Remove-Item .\\Images\\" + path + "\""]))
-    # else:
-        # if int(open(CONFIG, "r").read().split()[3]):
-            # if intrvl < 3:
-                # intrvl = 3
-        # else:
-            # _thread.start_new_thread ( system, tuple(["start powershell -WindowStyle Hidden \"Sleep(" + str(Seconds) + "); Remove-Item .\\Images\\" + path  + "\""]))
 
 posts = open(".history", "r").read()
 for i in reddit.subreddit("wallpaper").hot(limit = 1000):
