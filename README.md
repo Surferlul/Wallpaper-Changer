@@ -11,6 +11,6 @@ Following modules:
   * imgur_downloader
   * wxPython
 <br/>
-<br/>
+
 To build execute "build.py"
 
