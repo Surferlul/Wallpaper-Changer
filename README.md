@@ -2,7 +2,6 @@
 Wallpaper Changer for Windows using the r/Wallpaper subreddit
 
 PYTHON 3 AND FOLLOWING MODULES ARE REQUIRED TO RUN THIS PROGRAMM:
-  * cx_Freeze
   * praw
   * progressbar
   * imgur_downloader
