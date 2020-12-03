@@ -30,9 +30,9 @@ while True:
     try:
         integrity_check()
         if int(open(CONFIG, "r").read().split()[3]):
-            call(["backend.py"], shell=True)
+            call(["python3", "backend.py"], shell=True)
         else:
-            Popen(["backend.py"], shell=True)
+            Popen(["python3", "backend.py"], shell=True)
             sleep(float(open(CONFIG, "r").read().split()[0]))
     except Exception as E:
         print("Error: " + type(E).__name__)
