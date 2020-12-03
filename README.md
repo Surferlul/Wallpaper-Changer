@@ -12,3 +12,9 @@ Following modules:
   * wxPython
 <br/>
 To build execute "build.py"
+
+Managing script (UI): Changer.py
+
+Main loop: wrapper.py
+
+Download, setting wallpaper etc.: backend.py
