@@ -10,7 +10,7 @@ Following modules:
   * progressbar
   * imgur_downloader
   * wxPython
-\n\n
-
+<br/>
+<br/>
 To build execute "build.py"
 
