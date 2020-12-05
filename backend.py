@@ -55,7 +55,7 @@ try:
         if submission.url.split("/")[-1].split(".")[-1] not in ["jpg", "jpeg", "png"]:
             print("Downoading", submission.url)
         else:
-            print("Downoading", submission.url, "as", submission.url.split("\\")[-1])
+            print("Downoading", submission.url, "as", submission.url.split("/")[-1])
         ImgurDownloader(
         submission.url,
         "./Images/",
