@@ -7,6 +7,8 @@ If you own python you can download the non-compiled version from the "python" br
 
 If you want to compile it yourself you can download the code from the "code" branch
 
+If you want a more compact version and don't need a UI you can download the program from the "noui_main" branch
+
 This app uses the reddit api for Python.\
 The reddit api has limits.\
 The app already had a configured ".client" file with a throwaway client id and client secret so you don't have to create your own reddit app.\
