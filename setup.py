@@ -4,7 +4,7 @@ base = None
 
 executables = [Executable("backend.py", base=base), Executable("wrapper.py", base=base), Executable("Changer.py", base=base)]
 
-packages = ["idna", "os", "ctypes", "praw", "glob", "time", "urllib", "progressbar", "imgur_downloader", "wx", "subprocess", "_thread"]
+packages = ["idna", "os", "ctypes", "praw", "glob", "time", "urllib", "progressbar", "imgur_downloader", "wx", "subprocess"]
 options = {
     'build_exe': {
         'build_exe': '.\\build',
